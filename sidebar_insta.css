@@ -1,0 +1,96 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 92px;
+    display: flex;
+    /* background-color: red; */
+    /* margin-left: 203px; */
+    margin-left: 0px;
+    align-items: center;
+    padding-left: 203px;
+    margin-left: 10px;
+    
+
+}
+
+.logo-text {
+    display: flex;
+    
+    
+}
+
+.sidebar {
+    position: fixed;
+    left: 10px;
+    bottom: 0;
+    top: 90px;
+    /* background-color: green; */
+    width: 190px;
+    z-index: 200;
+    padding-top: 5px ;
+    padding-left: 4px;
+    overflow: hidden;
+    
+}
+
+
+.story-image {
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 1200px;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.50px;
+    background-color: white;
+    cursor: pointer;
+    
+}
+
+.insta-word {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.page-content {
+    display: flex;
+    margin-left: 170px;
+}  
+
+.stories {
+    display: flex;
+    margin: 0 0 0 40px;
+    column-gap: 40px;
+}
+
+.sidebar-link {
+   
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    /* justify-content: space-around; */
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+    margin-bottom: 30px;
+    
+}
+
+.sidebar-link div{
+    font-family: Roboto, Arial;
+    
+        
+}
+
+
+.sidebar-link img{
+    height: 25px;
+    
+}
+.feed {
+    margin-top: 95px;
+    margin-left: 40px;
+} 
